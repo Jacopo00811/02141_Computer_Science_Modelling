@@ -35,14 +35,14 @@ The overall structure of the assignment is illustrated below, where green boxes 
 
 We briefly describe the aims of each task:
 
-1. In [task 1](task1.md), you will implement a *parser* that takes a program in our new programming language and turns it into an abstract syntax tree (AST) - one of the main data structures used by the other components. To test your implementation, you will also implement a *pretty printer* (i.e. a code generator) that traverses the AST and outputs the original program in a nice format.
-2. In [task 2](task2.md), you will implement a *compiler* that takes the AST of a program and constructs its program graph (PG) - another data structure used for running and analyzing programs. To simplify debugging, you will also implement a *printer* that outputs a graphical representation of program graphs.
-3. In [task 3](task3.md), you will implement an *interpreter* that takes a program graph and an initial memory and computes the program's (complete) execution sequences when started on that memory.
+1. In [task 1], you will implement a *parser* that takes a program in our new programming language and turns it into an abstract syntax tree (AST) - one of the main data structures used by the other components. To test your implementation, you will also implement a *pretty printer* (i.e. a code generator) that traverses the AST and outputs the original program in a nice format.
+2. In [task 2], you will implement a *compiler* that takes the AST of a program and constructs its program graph (PG) - another data structure used for running and analyzing programs. To simplify debugging, you will also implement a *printer* that outputs a graphical representation of program graphs.
+3. In [task 3], you will implement an *interpreter* that takes a program graph and an initial memory and computes the program's (complete) execution sequences when started on that memory.
 4. In tasks 4 - 7, you will implement tools that help programmers with writing correct programs:
-    - In [task 4](task4.md), you will implement a *verifier* that checks whether a program does what it has been specified to do.
-    - In [task 5](task5.md), you will implement a *signs analysis* that determines the signs of variables at every point of a program's execution; such information can be used to detect bugs, such as a division by zero, before actually running the program.
-    - In [task 6](task6.md), you will implement another program analysis that checks whether your program leaks confidential information.
-    - In [task 7](task7.md), you will implement a model checker to analyse properties of concurrent programs.
+    - In [task 4], you will implement a *verifier* that checks whether a program does what it has been specified to do.
+    - In [task 5], you will implement a *signs analysis* that determines the signs of variables at every point of a program's execution; such information can be used to detect bugs, such as a division by zero, before actually running the program.
+    - In [task 6], you will implement another program analysis that checks whether your program leaks confidential information.
+    - In [task 7], you will implement a model checker to analyse properties of concurrent programs.
 
 ## Guidelines
 
@@ -83,7 +83,7 @@ We may also manually inspect your code.
 
 ### Student competition
 
-The student competition published [here](competition-results.md).
+The student competition published.
 
 You can use it to compare the quality of your solution against those of your classmates. The solutions will be ranked according to the number of detected errors and their efficiency.
 
